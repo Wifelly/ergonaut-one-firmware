@@ -21,6 +21,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        combo_macosprt {
+            bindings = <&kp PSCRN>;
+            key-positions = <37 38 24 16>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
